@@ -1,0 +1,3 @@
+(library
+ (public_name fp-syntax.std)
+ (name fpsyntax))
