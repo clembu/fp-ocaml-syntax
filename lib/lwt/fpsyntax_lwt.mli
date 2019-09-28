@@ -46,6 +46,9 @@ val ( >|% ) : 'a Lwt.t -> ('a -> 'b) -> 'b Lwt.t
     @see <https://ocsigen.org/lwt/latest/api/Lwt#VALmap>
     The official Lwt documentation for [Lwt.map] *)
 
+val ( <*%> ) : 'a Lwt.t -> 'b Lwt.t -> ('a * 'b) Lwt.t
+(** Equivalent to [Lwt.both]. *)
+
 (** {1:bindings Binding operators}
 
     These use the character [%] to help differenciate from other monadic
