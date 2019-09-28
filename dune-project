@@ -20,3 +20,9 @@
  (synopsis "Lwt operators for OCaml 4.08 and later")
  (description "Lwt operators for OCaml 4.08 and later")
  (depends dune lwt))
+
+(package
+ (name fp-syntax_react)
+ (synopsis "React operators for OCaml 4.08 and later")
+ (description "React operators for OCaml 4.08 and later")
+ (depends dune react))
