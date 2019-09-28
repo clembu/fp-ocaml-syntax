@@ -1,0 +1,2 @@
+* Documentation
+Available at [[https://facelesspanda.github.io/fp-ocaml-syntax]]
