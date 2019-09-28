@@ -1,0 +1,5 @@
+
+(library
+ (public_name fp-syntax_lwt)
+ (name lwt_syntax)
+ (libraries lwt))

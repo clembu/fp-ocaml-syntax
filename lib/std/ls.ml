@@ -20,20 +20,14 @@ let product = List.combine
 (* Bindings *****************************************************************)
 let ( let>: ) = bind
 
-let ( and>: ) = product
-
 let ( let|: ) = map
 
-let ( and|: ) = product
+let ( and*: ) = product
 
 (* Infixes ******************************************************************)
 let ( >>: ) = bind
 
-let ( <<: ) f x = bind x f
-
 let ( >|: ) = map
-
-let ( <|: ) f x = map x f
 
 let ( <*:> ) = product
 

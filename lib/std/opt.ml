@@ -10,14 +10,12 @@ let ( let>? ) = bind
 
 let ( let|? ) = map
 
+let ( and*? ) = product
+
 (* Infixes ******************************************************************)
 let ( >>? ) = bind
 
-let ( <<? ) f x = bind x f
-
 let ( >|? ) = map
-
-let ( <|? ) f x = map x f
 
 let ( <*?> ) = product
 

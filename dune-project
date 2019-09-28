@@ -14,3 +14,9 @@
  (synopsis "Various operators for OCaml 4.08 and later")
  (description "Various operators for OCaml 4.08 and later")
  (depends dune))
+
+(package
+ (name fp-syntax_lwt)
+ (synopsis "Lwt operators for OCaml 4.08 and later")
+ (description "Lwt operators for OCaml 4.08 and later")
+ (depends dune lwt))
