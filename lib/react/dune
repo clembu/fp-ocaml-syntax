@@ -1,5 +1,5 @@
 
 (library
- (public_name fp-syntax_react)
+ (public_name fp-syntax.react)
  (name fpsyntax_react)
  (libraries react))
